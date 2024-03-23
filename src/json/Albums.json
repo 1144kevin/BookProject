@@ -1,0 +1,40 @@
+{
+    "albumTitle":"DIVIDE",
+    "albumList":[
+        {
+            "title":"Perfect",
+            "artist":"ED Sheeran",
+            "url":"https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "image":"https://images.ctfassets.net/r1mvpfown1y6/5bEQtLkf7xBJv6kGogJUUl/63fbaae11fe424095395f068743c0ea9/EdSheeran_3up_736x736.jpg?w=800&q=50",
+            "thumbnail_image":"https://www.clashmusic.com/wp-content/uploads/2017/04/Clash103Web23.jpg"
+        },
+        {
+            "title":"Shape of you",
+            "artist":"ED Sheeran",
+            "url":"https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "image":"https://i1.sndcdn.com/artworks-000206844384-uzp8t5-t500x500.jpg",
+            "thumbnail_image":"https://www.clashmusic.com/wp-content/uploads/2017/04/Clash103Web23.jpg"
+        },
+        {
+            "title":"Happier",
+            "artist":"ED Sheeran",
+            "url":"https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "image":"https://pic.pimg.tw/aerirabbit/1490226260-145449355_n.jpg",
+            "thumbnail_image":"https://www.clashmusic.com/wp-content/uploads/2017/04/Clash103Web23.jpg"
+        },
+        {
+            "title":"Supermarket Flowers",
+            "artist":"ED Sheeran",
+            "url":"https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "image":"https://media.hitparade.ch/cover/big/ed_sheeran-supermarket_flowers_s.jpg",
+            "thumbnail_image":"https://www.clashmusic.com/wp-content/uploads/2017/04/Clash103Web23.jpg"
+        },
+        {
+            "title":"What Do I Know",
+            "artist":"ED Sheeran",
+            "url":"https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "image":"https://static.wikia.nocookie.net/edsheeran/images/1/1e/What-Do-I-Know-Cover.jpg/revision/latest?cb=20170304025635",
+            "thumbnail_image":"https://www.clashmusic.com/wp-content/uploads/2017/04/Clash103Web23.jpg"
+        }
+    ]
+}

@@ -1,20 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet,StatusBar} from 'react-native';
+import React from "./node_modules/react";
+import Header from "./src/components/Header/Header";
+import AlbumList from "./src/components/AlbumList/Album";
+import AlbumData from "./src/json/Albums.json"
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={{ flex: 1 ,backgroundColor:"#D2E9FF"}}>{/*iphone使用 */}
+      <StatusBar />{/*android使用 */}
+      <Header title={AlbumData.albumTitle}/>
+      <AlbumList list={AlbumData.albumList}/>
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
