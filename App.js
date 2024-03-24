@@ -1,15 +1,18 @@
-import { SafeAreaView, StyleSheet,StatusBar} from 'react-native';
 import React from "./node_modules/react";
-import Header from "./src/components/Header/Header";
-import AlbumList from "./src/components/AlbumList/Album";
-import AlbumData from "./src/json/Albums.json"
+import Navigation from './src/navigation/index';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { GluestackUIProvider } from '@gluestack-ui/themed';
+import { config } from '@gluestack-ui/config';
+
+
 
 export default function App() {
   return (
-    <SafeAreaView style={{ flex: 1 ,backgroundColor:"#D2E9FF"}}>{/*iphone使用 */}
-      <StatusBar />{/*android使用 */}
-      <Header title={AlbumData.albumTitle}/>
-      <AlbumList list={AlbumData.albumList}/>
+    <SafeAreaView style={{ flex: 1}}>{/*iphone使用 */}
+        <GluestackUIProvider config={config}>
+          <Navigation />   
+        </GluestackUIProvider>       
     </SafeAreaView>
+
   );
 }
