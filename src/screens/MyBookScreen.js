@@ -2,14 +2,14 @@ import React from 'react';
 import { View } from 'react-native';
 import { Text } from "@gluestack-ui/themed";
 
-const SettingsScreen = () => {
+const MyBookScreen = () => {
     return (
     <View style={{flex: 1}}>
         <Text fontSize={30}>
-            This is a Book Page
+            This is a MyBookScreen
         </Text>              
     </View>
     );
 }
 
-export default SettingsScreen;
+export default MyBookScreen;

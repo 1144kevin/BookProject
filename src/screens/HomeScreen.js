@@ -1,12 +1,12 @@
 import React from "react";
 import { Box } from "@gluestack-ui/themed"
-import AlbumList from "../components/BookList";
-import sections from "../json/book_section.json";
+import BookList from "../components/BookList";
+import sections from "../json/BookContent.json";
 
-const AlbumScreen = ({ navigation }) => {
+const HomeScreen = ({ navigation }) => {
     return (
         <Box bgColor="white" height="100%">
-            <AlbumList
+            <BookList
                 sections={sections}
                 navigation={navigation}
             />
@@ -14,4 +14,4 @@ const AlbumScreen = ({ navigation }) => {
     );
 };
 
-export default AlbumScreen;
+export default HomeScreen;
